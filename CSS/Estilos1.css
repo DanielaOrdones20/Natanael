@@ -1,0 +1,75 @@
+
+
+nav, header, footer, .Contenedor{
+    max-width: 98%;
+    margin: auto;
+}
+nav{
+    text-align: end;
+    
+}
+header{border-radius:20px;
+    background-color: lavender;
+    color: midnightblue;
+    text-align: center;
+    font-style: italic;
+}
+.Contenedor{
+    background-color: rgb(209, 252, 212);
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius:20px;
+}
+footer{
+    background-color:lavender;
+    text-align: center; border-radius:20px;
+    
+}
+.central{
+    display: inline-block;
+    max-width: 75%;
+    text-align: center
+}
+.segunda{
+    
+    text-align: center
+    
+}
+.Menu li{padding:6px;border-radius:10px;
+    display: inline-block;
+    text-align: center;
+    
+}
+Li a, Boton{padding:6px;border-radius:10px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.1em 0.7em;    
+}
+.ListaDesplegable{padding:6px;border-radius:10px;
+    background-color: lavender;
+    display: none;
+    position: absolute;
+    
+}
+.ListaDesplegable a{padding:6px;border-radius:10px;
+    display: block;
+    text-align: left;
+}
+.Boton:hover .ListaDesplegable{padding:6px;border-radius:10px;
+    display: block;
+}
+Li a:hover{
+    background-color: rgb(190, 226, 240);
+}
+
+aside{
+    display: inline-block;
+    max-width: 25%;
+    
+    text-align: end;
+    
+}
+
+.Titulo{
+    text-align: start;
+}
